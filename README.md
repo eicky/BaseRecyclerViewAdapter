@@ -1,7 +1,23 @@
-# BaseRecyclerViewAdapter     [![](https://jitpack.io/v/eicky/BaseRecyclerViewAdapter.svg)](https://jitpack
-.io/#eicky/BaseRecyclerViewAdapter)
+# BaseRecyclerViewAdapter     [![](https://jitpack.io/v/eicky/BaseRecyclerViewAdapter.svg)](https://jitpack.io/#eicky/BaseRecyclerViewAdapter)
 RecyclerView通用适配器
-## Use this library
+## Use
+```get
+    allprojects {
+    		repositories {
+    			...
+    			maven { url "https://jitpack.io" }
+    		}
+    	}
+
+```
+```get
+    dependencies {
+    	        compile 'com.github.eicky:BaseRecyclerViewAdapter:1.0'
+    	}
+
+```
+
+##Code
 ```code
 mQuickAdapter = new QuickAdapter<Integer>(this, R.layout.item) {
             @Override
