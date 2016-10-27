@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.eicky.sample.MainActivity">
+    <Button
+        android:id="@+id/linear_layout_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LinearLayoutManager"
+        />
+    <Button
+        android:id="@+id/grid_layout_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GridLayoutManager"
+        />
+    <Button
+        android:id="@+id/staggered_layout_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StaggeredGridLayoutManager"
+        />
+    <Button
+        android:id="@+id/multi_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MultiType"
+        />
+</LinearLayout>
